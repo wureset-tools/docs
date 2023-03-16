@@ -1,8 +1,8 @@
 # Usage
 
-This tool implements functions through command line. Some recovery functions are not available on all versions of Windows and the tool detects this type of availability to mitigate possible errors.
+The Reset Windows Update Tool utilizes command-line functions to implement its processes. It is important to note that certain recovery functions may not be available on all versions of Windows, and the tool will detect such limitations to avoid potential errors.
 
-Type the number of function and press "Enter" to applying these corrections.
+To apply the necessary corrections, simply type in the number corresponding to the desired function and press "Enter".
 
 > ### Contents
 >
@@ -39,7 +39,7 @@ The **Compatibility** tab is not available for some program icons. For these pro
 4. On the **Compatibility** tab, click to select the **Run this program as an administrator** check box, and then click **OK**.
 
 <div align="center">
-	<img src="/assets/images/runas.gif" alt="runas">
+	<img src="assets/images/runas.gif" alt="runas">
 </div>
 <br />
 
@@ -47,11 +47,13 @@ For more information, see [references](https://support.microsoft.com/en-us/kb/92
 
 ## Command line
 
-The Reset Windows Update Tool can be used for the command line in this way:
+The Reset Windows Update Tool can be utilized through the command line using the following format:
 
 ```
 $ WURESET [/reset][/search][/clean:{temp|regs|sock}][/sfc][/dism:{scan|check|repair|clean}]
 ```
+
+Here, the various options that can be used with the tool are listed within brackets. These options include resetting the tool, searching for updates, cleaning temporary files or registry values, running System File Checker (SFC), and running DISM to scan, check, repair, or clean the system image.
 
 **Parameter List**
 
@@ -183,12 +185,12 @@ $ WURESET [/reset][/search][/clean:{temp|regs|sock}][/sfc][/dism:{scan|check|rep
 **Sample usage:**
 
 <div align="center">
-	<img src="/assets/images/commands.gif" alt="command line">
+	<img src="assets/images/commands.gif" alt="command line">
 </div>
 <br />
 
 For check version
 
 <div align="center">
-	<img src="/assets/images/version.gif" alt="version">
+	<img src="assets/images/version.gif" alt="version">
 </div>

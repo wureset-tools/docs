@@ -1,58 +1,54 @@
 # Troubleshooting
 
-Reset the Windows Update Components is the first and main option to correct problems in Windows Update.
-
-However, this process requires some steps to avoid problems during the search of a solution.
+Resetting the Windows Update Components is the primary solution for correcting issues related to Windows Update. However, it is important to follow the necessary steps to avoid encountering any problems during the process.
 
 > ### Contents
 >
 > [Change invalid values in the registry](#change-invalid-values-in-the-registry) <br />
 > [Scan all protected system files](#scan-all-protected-system-files) <br />
-> [DISM for Windows 8, Windows 8.1 and Windows 10](#dism-for-windows-8-windows-81-and-windows-10) <br />
+> [DISM command tool](#dism-command-tool) <br />
 > [Installing Updates](#installing-updates) <br />
 > [Online Solutions](#online-solutions)
 
 ## Change invalid values in the registry
 
-Serious problems might occur if you modify the registry incorrectly. Before you modify it, make a back up the registry for its restoration in case problems occur.
+Modifying the registry incorrectly can cause serious problems. Therefore, it is highly recommended to create a backup of the registry before making any changes.
 
-The option "Change invalid values in the registry" create a registry backup on the Windows desktop.
+To create a backup, select the option "Change invalid values in the registry". This will create a registry backup on your Windows desktop.
 
-After creating the backup, invalid values in the registry are changed. This corrects the errors: 0x8000FFFF, 0x80240020, 0x80070646, and others.
+Once the backup is created, invalid values in the registry are changed, which can fix errors such as 0x8000FFFF, 0x80240020, 0x80070646, and others.
 
-For restore the registry, select "Merge" on the contextual menu.
+In case any problem occurs, you can restore the registry by selecting "Merge" from the contextual menu.
 
 ## Scan all protected system files
 
-Other option to correct problems is "Scan all protected system files". This option scan for corruptions in Windows system files and restore corrupted files.
+If you're experiencing issues with Windows, another option to consider is the "Scan all protected system files" tool. This tool scans for corruptions in Windows system files and restores any corrupted files it finds.
 
-Remember restart your PC to save the changes.
+Before you use this tool, it's recommended to make a backup of your important files and data. Once you're ready, simply select the option and wait for the scan to finish. Any corrupted files that are detected will be automatically restored.
 
-## DISM for Windows 8, Windows 8.1 and Windows 10
+After the scan is complete, it's important to restart your PC to ensure that any changes are saved and applied properly.
 
-The Deployment Image Servicing and Management (DISM.exe) is a command-line tool that can be used to fix Windows corruption errors.
+## DISM command tool
 
-The Reset Windows Update Tool incorporates lines about DISM commands to repair Windows. The options of repair with DISM are:
+DISM.exe is a command-line tool that can be used to repair Windows corruption errors. The Reset Windows Update Tool includes DISM commands to facilitate the repair process. The repair options with DISM are:
 
 - Scan the image to check for corruption
 - Check the detected corruptions
 - Repair the image
 - Clean up the superseded components
 
-For repair Windows, select these options in the same sequence. Selecting each option, a process message should appear.
+To repair Windows, these options should be selected in sequence. After selecting each option, a process message should appear. Please note that the command operation may take several minutes to complete. It is important to restart your PC after executing each command.
 
-It may take several minutes for the command operation to be complete. Remember restart your PC after executing each command.
-
-If Windows is non-repairable, you should reinstall the system.
+If Windows cannot be repaired, you may need to reinstall the system.
 
 ## Installing Updates
 
-To start installing updates, you can go to Windows Update through of option "Search Updates".
+To begin installing updates, you can access Windows Update by selecting the "Check for Updates" option in the Settings menu.
 
-During the installation of updates, it is recommended to install 5 to 20 updates (Only Windows 8, Windows 8.1).
+When installing updates, it's best to install them in batches of 5 to 20, if possible. This helps to minimize the risk of any issues arising during the installation process.
 
 ## Online Solutions
 
-The Reset Windows Update Tool repair some errors on the installing updates. But there are some errors that are not repairable with this tool.
+The Reset Windows Update Tool can fix some errors related to installing updates, but there may be certain errors that cannot be resolved with this tool.
 
-You can find solutions on the website of Microsoft selected the option "Explore other online solutions". This option open the website of Microsoft.
+In such cases, you can visit Microsoft's website and explore other online solutions. Simply select the option "Explore other online solutions" and you will be directed to the Microsoft website where you can find additional information and support for your specific issue.

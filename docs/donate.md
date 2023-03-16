@@ -1,8 +1,6 @@
 # Donate
 
-In 2015 the script version "ResetWUEng.cmd" was released as a support tool for troubleshooting problems with Windows Update.
-
-Today 5 years later and with the end of support for the scripts gallery of Microsoft "TechNet Gallery" in June 2020, it is necessary to have a space to centralize the updated versions of the Reset Windows Update Tool.
+In 2015, the script version "ResetWUEng.cmd" was released as a support tool to troubleshoot problems with Windows Update. Five years later, with the end of support for the Microsoft "TechNet Gallery" scripts gallery in June 2020, there is a need to centralize the updated versions of the Reset Windows Update Tool in a new location.
 
 > ### Contents
 >
@@ -12,23 +10,17 @@ Today 5 years later and with the end of support for the scripts gallery of Micro
 
 ### A bit of context
 
-Month after month new updates are coming out for Microsoft's operating systems. However (and although it is not with the same frequency), it is necessary to make updates to this tool.
+Microsoft's operating systems receive new updates month after month. Similarly, updates are required for the Reset Windows Update Tool, although not with the same frequency. However, updating this tool requires significant time and effort, which is often undertaken by a single person.
 
-The updates that are carried out consume time and effort made most of the time by a single person.
+Therefore, to streamline the update process and ensure that the tool is available in multiple languages, I have reached out to the community for help with translation. The work is substantial, and I will continue to work with the community to create a more appealing version in the future.
 
-For this reason, and because the time used to update is not very short, I have seen the need to ask for the help of the community to carry out some translation processes.
-
-The work is a lot and I will continue working with the community to have a much more striking version in the future. At the moment I will keep the page https://wureset.com/ available for downloading the updated versions.
+For now, you can download the latest versions of the tool from the https://wureset.com/ website.
 
 ### There is still reality to contend with
 
-In previous months we were affected by the fluctuation of the dollar and the increase in the costs of domain and hosting services.
+Over the past few months, we've been impacted by the fluctuation of the dollar and the rising costs of domain and hosting services. To address this, we had to migrate to more affordable options, which unfortunately led to connection failures with our website, https://wureset.com/.
 
-Due to this, several migrations were made in search of a less expensive option. During these migration periods, there were multiple connection failures with the https://wureset.com/ site.
-
-At present we already have a stable service with which we hope to continue for several years.
-
-In the same way, the donations received will be used to keep the service on the air for a long time.
+We're happy to report that we now have a stable service and hope to continue offering it for many years to come. However, we rely on donations to cover our expenses and keep the service running smoothly. Your contributions will go a long way in helping us maintain a reliable and accessible platform for users to download the Reset Windows Update Tool.
 
 ### Donation options
 

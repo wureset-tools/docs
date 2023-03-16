@@ -1,8 +1,8 @@
 # Diagnostic
 
-The main content of this tool is to Reset Windows Update Components. However, the development of it, allows us to perform other processes for solving problems.
+While the primary purpose of the Reset Windows Update Tool is to reset the Windows Update Components, its development has enabled the tool to perform other functions for problem-solving purposes.
 
-It can be divided the correction processes into three groups:
+The various correction processes can be broadly divided into three groups:
 
 <dl>
 <dt>Control processes</dt>
@@ -13,7 +13,7 @@ It can be divided the correction processes into three groups:
 <dd>are those who suggest repair or reinstall the system.</dd>
 </dl>
 
-It is recommended to perform some tests to simplify the incident and to find the best solution.
+It is recommended to conduct some tests to identify the root cause of the issue and determine the best course of action.
 
 > ### Contents
 >
@@ -26,42 +26,40 @@ It is recommended to perform some tests to simplify the incident and to find the
 
 ## Restore Point
 
-In case that something failed, you can restore your computer at last restore point.
+In case something goes wrong, you can restore your computer to the last restore point.
 
-For create a Restore Point, in the main menu, select the first option. This option open the system protection window.
+To create a restore point, select the first option in the main menu. This will open the System Protection window.
 
-In this place, you can create a Restore Point. Only press the button "Create".
+Here, you can create a restore point by simply clicking the "Create" button.
 
-If this option is disabled, press the button "Configure" and select "Turn on system protection".
+If this option is disabled, click on the "Configure" button and select "Turn on system protection" to enable it.
 
 ## Removing temporary
 
-For delete temporary files, select the option "Delete temporary files in Windows". This option automatically deletes temporary files.
+To delete temporary files, select the option labeled "Delete temporary files in Windows". This option will automatically remove any temporary files stored on your system.
 
 ## Reset Internet Explorer
 
-For Reset Internet Explorer, select the option "Open Internet Explorer options". This open the Internet Options.
+To reset Internet Explorer, select the option labeled "Open Internet Explorer Options". This will open the Internet Options window.
 
-In this window select the tab "Advanced" and press the button "Reset".
+Next, select the "Advanced" tab and click on the "Reset" button to reset Internet Explorer to its default settings.
 
 ## Restart your PC
 
-Whenever a system solution process is carried out, it is recommended then restart the computer to save the changes.
+After completing a system solution process, it is recommended to restart the computer in order to save any changes that were made.
 
-You can restart your PC manually or automatically via the option "Restart your PC", this option gives you 1 minute to save the work you find yourself doing.
+You can restart your PC manually, or choose the option labeled "Restart your PC" to automatically restart your computer. This option provides a one-minute warning to save any work you may be doing before the restart occurs.
 
 ## Reset the Winsock settings
 
-For restore Internet connections, select the "Reset the Winsock settings" option.
+To restore Internet connections, select the "Reset Winsock Settings" option. This feature restores Internet access settings, removes any access restrictions, and fixes errors such as 0x8024042C and others that may be preventing you from connecting to the Internet.
 
-This option restores Internet access settings, remove any access restrictions and fix errors as 0x8024042C, and others.
+After selecting this option, the tool will apply the necessary changes to your system. It is recommended to restart your computer after this process is completed to ensure the changes take effect.
 
 ## Automatically fix problem
 
-It is recommended run the Fix-It for Windows Update. For this select the option, "Explore other local solutions".
+To further troubleshoot Windows Update issues, we recommend using the Fix-It tool. You can access this tool by selecting the 'Explore other local solutions' option.
 
-The "Fix problem with Windows Update" displays an error code that helps us to find the solution to our incident. If this option don't show the error code, you can download a tool "fix-it" for search the error code.
-
-Windows 8, Windows 8.1: [http://go.microsoft.com/?linkid=9830262](http://go.microsoft.com/?linkid=9830262)
+The 'Fix problem with Windows Update' tool can identify the error code associated with the issue, which can help you find a solution. If the error code is not displayed, you can download the 'Fix-It' tool to search for the error code.
 
 Windows 10: [http://aka.ms/diag_wu](http://aka.ms/diag_wu)

@@ -1,8 +1,6 @@
 # Reset Components
 
-If you are continuously getting Windows Update Fails issue then it is the time to reset Windows Update Components to its default value.
-
-This tool was primarily designed to solve issues related to Windows Update Components.
+If you are experiencing persistent issues with Windows Update, it may be necessary to reset the Windows Update Components to their default settings. This tool is specifically designed to address issues related to these components.
 
 > ### Contents
 >
@@ -11,27 +9,25 @@ This tool was primarily designed to solve issues related to Windows Update Compo
 
 ## Reset Windows Update Components
 
-Before starting, remember to make a backup the registry.
+Before proceeding, it is important to create a backup of the registry in case anything goes wrong during the process.
 
-Then select the option "Reset Windows Update Components". This option will stop Windows Update services, while cleaning the components and restore the initial settings.
+To reset Windows Update Components to their default values, select the "Reset Windows Update Components" option. This will stop Windows Update services and clean the components, restoring them to their initial settings.
 
-You will see that it started to reset Windows Update Components automatically. In a few minutes the process will be completed.
+The tool will start resetting the components automatically, and the process should be completed in a few minutes.
 
-After that, Install the latest Windows Update Agent: [https://support.microsoft.com/en-us/kb/949104](https://support.microsoft.com/en-us/kb/949104).
+Once completed, it is recommended to install the latest Windows Update Agent from the following link: [https://support.microsoft.com/en-us/kb/949104](https://support.microsoft.com/en-us/kb/949104).
 
-Finally, restart your PC to save the changes.
+Finally, restart your PC to ensure that the changes have been saved.
 
 ## The Windows Update service could not be stopped
 
-If Windows Update Service won't stop then run this tool on safe mode.
+If the Windows Update Service won't stop, try running this tool in Safe Mode.
 
 <div align="center">
-	<img src="/assets/images/failed.png" alt="failed">
+	<img src="assets/images/failed.png" alt="failed">
 </div>
 <br />
 
-Most of the ways you access Safe Mode involve getting into the Windows recovery environment first.
+To access Safe Mode, you can get into the Windows recovery environment by holding down the Shift key while clicking Restart. This will take you to the Advanced Startup Options menu, where you can select Safe Mode.
 
-The easiest way to get to the recovery environment is to hold down the Shift key while clicking Restart.
-
-If the error persists, your Windows installation can be found in poor condition and requires repair or reinstall.
+If you're still experiencing the error, it's possible that your Windows installation is in poor condition and requires repair or reinstallation.

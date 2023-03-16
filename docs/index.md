@@ -2,16 +2,16 @@
 
 <div align="center">
 	<a href="https://wureset.com/">
-		<img src="/assets/images/logo.png" alt="Logo" height="300" width="300">
+		<img src="assets/images/logo.png" alt="Logo" height="300" width="300">
 	</a>
 </div>
 <br />
 
-This tool has been developed for use as a support of system repair options. It is possible to reset the Windows Update Components. Also is able to delete temporary files, scan, detect and repair corruptions with the Windows System image, scan all protected system files and replace any corrupted files, change invalid values in the Windows Registry, reset Winsock settings and more.
+This tool has been specifically developed to provide support for system repair options. It is designed to reset the Windows Update Components, delete temporary files, detect and repair any corruptions with the Windows System image, scan all protected system files and replace any corrupted files, change invalid values in the Windows Registry, reset Winsock settings, and more.
 
-The tool for Reset Windows Update Components works through command-line but need of basic requirements as a compatible operative system, run with the elevated privileges, etc.
+The Reset Windows Update Components tool can be operated via command-line and requires basic system requirements such as a compatible operating system and elevated privileges.
 
-This document has been created to describe the process sequences for the correct use of Reset Windows Update Tool.
+This document serves as a guide to describe the correct process sequences for utilizing the Reset Windows Update Tool.
 
 > ### Contents
 >
@@ -22,11 +22,11 @@ This document has been created to describe the process sequences for the correct
 
 ## Requirements
 
-This tool is compatible with Windows 10 or higher.
+This tool is fully compatible with Windows 10 or any higher version of the operating system.
 
-When you run Reset Windows Update Tool is detected the version or build of the operative system determined the name and family of the operative system.
+Upon running the Reset Windows Update Tool, the tool will automatically detect the version or build of the operating system, which in turn determines the name and family of the system.
 
-If the operating system is not compatible with this tool, display an error message and the tool will be closed.
+In the event that the operating system is not compatible with the tool, an error message will be displayed and the tool will be closed.
 
 ## Glossary
 
