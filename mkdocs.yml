@@ -1,0 +1,13 @@
+site_name: Reset Windows Update Tool
+theme: readthedocs
+extra_css:
+  - assets/css/main.css
+nav:
+  - index.md
+  - getting-started.md
+  - usage.md
+  - diagnostic.md
+  - reset-components.md
+  - troubleshooting.md
+  - donate.md
+  - faq.md
