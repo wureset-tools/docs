@@ -16,7 +16,7 @@ jobs:
         uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # CUSTOM_DOMAIN: optionaldomain.com
+          CUSTOM_DOMAIN: docs.wureset.online
           CONFIG_FILE: mkdocs.yml
           EXTRA_PACKAGES: build-base
           REQUIREMENTS: requirements.txt
