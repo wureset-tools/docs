@@ -1,6 +1,6 @@
-# Project Documentation
+# Docs
 
-This repository contains the documentation for the project. The documentation has been created using [MkDocs](https://www.mkdocs.org/) and can be viewed online at [https://your-domain.com](https://your-domain.com).
+This repository contains the documentation for the project. The documentation has been created using [MkDocs](https://www.mkdocs.org/) and can be viewed online at [https://docs.wureset.online/](https://docs.wureset.online/).
 
 ## Prerequisites
 

@@ -39,7 +39,7 @@ The **Compatibility** tab is not available for some program icons. For these pro
 4. On the **Compatibility** tab, click to select the **Run this program as an administrator** check box, and then click **OK**.
 
 <div align="center">
-	<img src="/assets/images/runas.gif" alt="runas">
+	<img src="https://docs.wureset.online/assets/images/runas.gif" alt="contextual menu run as an admin">
 </div>
 <br />
 
@@ -185,13 +185,13 @@ Here, the various options that can be used with the tool are listed within brack
 **Sample usage:**
 
 <div>
-	<img src="/assets/images/commands.gif" alt="command line">
+	<img src="https://docs.wureset.online/assets/images/commands.gif" alt="example of command line">
 </div>
 <br />
 
 For check version
 
 <div>
-	<img src="/assets/images/version.gif" alt="version">
+	<img src="https://docs.wureset.online/assets/images/version.gif" alt="get version with command line">
 </div>
 <br />

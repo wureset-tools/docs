@@ -1,8 +1,8 @@
 # Home
 
 <div align="center">
-	<a href="https://wureset.com/">
-		<img src="/assets/images/logo.png" alt="Logo" height="300" width="300">
+	<a href="https://wureset.com/" target="_blank" rel="noopener noreferrer">
+		<img src="https://docs.wureset.online/assets/images/logo.png" alt="logo wureset" height="300" width="300">
 	</a>
 </div>
 <br />

@@ -24,7 +24,7 @@ Finally, restart your PC to ensure that the changes have been saved.
 If the Windows Update Service won't stop, try running this tool in Safe Mode.
 
 <div align="center">
-	<img src="/assets/images/failed.png" alt="failed">
+	<img src="https://docs.wureset.online/assets/images/failed.png" alt="failed command">
 </div>
 <br />
 

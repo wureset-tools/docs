@@ -1,4 +1,6 @@
 site_name: Reset Windows Update Tool
+site_description: This document serves as a guide to describe the correct process sequences for utilizing the Reset Windows Update Tool.
+site_author: Manuel Gil
 theme: readthedocs
 extra_css:
   - assets/css/main.css
