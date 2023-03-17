@@ -1,6 +1,6 @@
 # Docs
 
-This repository contains the documentation for the project. The documentation has been created using [MkDocs](https://www.mkdocs.org/) and can be viewed online at [https://docs.wureset.online/](https://docs.wureset.online/).
+This repository contains the documentation for the Reset Windows Update Tool. The documentation has been created using [MkDocs](https://www.mkdocs.org/) and can be viewed online at [https://docs.wureset.online/](https://docs.wureset.online/).
 
 ## Prerequisites
 
@@ -80,11 +80,11 @@ mkdocs serve
 ```
 
 4. Open your web browser and navigate to [http://localhost:8000](http://localhost:8000).
-5. You should see the project documentation in your browser.
+5. You should see this documentation in your browser.
 
 ## Contributing
 
-If you'd like to contribute to the project documentation, please follow these steps:
+If you'd like to contribute to this documentation, please follow these steps:
 
 1. Fork this repository to your own GitHub account.
 2. Create a new branch with a descriptive name for your changes.
@@ -101,7 +101,7 @@ Issues and feature requests can be reported through GitHub Tracker. In addition,
 
 ## Credits
 
-This project is a project developed and maintained by [Manuel Gil](https://github.com/ManuelGil).
+This project is developed and maintained by [Manuel Gil](https://github.com/ManuelGil).
 
 ## License
 
