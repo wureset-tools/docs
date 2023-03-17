@@ -24,7 +24,7 @@ Finally, restart your PC to ensure that the changes have been saved.
 If the Windows Update Service won't stop, try running this tool in Safe Mode.
 
 <div align="center">
-	<img src="/docs/assets/images/failed.png" alt="failed">
+	<img src="/assets/images/failed.png" alt="failed">
 </div>
 <br />
 

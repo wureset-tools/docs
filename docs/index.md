@@ -2,7 +2,7 @@
 
 <div align="center">
 	<a href="https://wureset.com/">
-		<img src="/docs/assets/images/logo.png" alt="Logo" height="300" width="300">
+		<img src="/assets/images/logo.png" alt="Logo" height="300" width="300">
 	</a>
 </div>
 <br />

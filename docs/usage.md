@@ -39,7 +39,7 @@ The **Compatibility** tab is not available for some program icons. For these pro
 4. On the **Compatibility** tab, click to select the **Run this program as an administrator** check box, and then click **OK**.
 
 <div align="center">
-	<img src="/docs/assets/images/runas.gif" alt="runas">
+	<img src="/assets/images/runas.gif" alt="runas">
 </div>
 <br />
 
@@ -184,13 +184,14 @@ Here, the various options that can be used with the tool are listed within brack
 
 **Sample usage:**
 
-<div align="center">
-	<img src="/docs/assets/images/commands.gif" alt="command line">
+<div>
+	<img src="/assets/images/commands.gif" alt="command line">
 </div>
 <br />
 
 For check version
 
-<div align="center">
-	<img src="/docs/assets/images/version.gif" alt="version">
+<div>
+	<img src="/assets/images/version.gif" alt="version">
 </div>
+<br />
