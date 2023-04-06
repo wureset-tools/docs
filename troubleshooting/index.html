@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Manuel Gil" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Troubleshooting - Reset Windows Update Tool</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../assets/css/main.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Troubleshooting";
+        var mkdocs_page_input_path = "troubleshooting.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Reset Windows Update Tool
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../getting-started/">Getting Started</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../usage/">Usage</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../diagnostic/">Diagnostic</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../reset-components/">Reset Components</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Troubleshooting</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#contents">Contents</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#change-invalid-values-in-the-registry">Change invalid values in the registry</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#scan-all-protected-system-files">Scan all protected system files</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#dism-command-tool">DISM command tool</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#installing-updates">Installing Updates</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#online-solutions">Online Solutions</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../donate/">Donate</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../faq/">FAQ</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Reset Windows Update Tool</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Troubleshooting</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="troubleshooting">Troubleshooting</h1>
+<p>Resetting the Windows Update Components is the primary solution for correcting issues related to Windows Update. However, it is important to follow the necessary steps to avoid encountering any problems during the process.</p>
+<blockquote>
+<h3 id="contents">Contents</h3>
+<p><a href="#change-invalid-values-in-the-registry">Change invalid values in the registry</a> <br />
+<a href="#scan-all-protected-system-files">Scan all protected system files</a> <br />
+<a href="#dism-command-tool">DISM command tool</a> <br />
+<a href="#installing-updates">Installing Updates</a> <br />
+<a href="#online-solutions">Online Solutions</a></p>
+</blockquote>
+<h2 id="change-invalid-values-in-the-registry">Change invalid values in the registry</h2>
+<p>Modifying the registry incorrectly can cause serious problems. Therefore, it is highly recommended to create a backup of the registry before making any changes.</p>
+<p>To create a backup, select the option "Change invalid values in the registry". This will create a registry backup on your Windows desktop.</p>
+<p>Once the backup is created, invalid values in the registry are changed, which can fix errors such as 0x8000FFFF, 0x80240020, 0x80070646, and others.</p>
+<p>In case any problem occurs, you can restore the registry by selecting "Merge" from the contextual menu.</p>
+<h2 id="scan-all-protected-system-files">Scan all protected system files</h2>
+<p>If you're experiencing issues with Windows, another option to consider is the "Scan all protected system files" tool. This tool scans for corruptions in Windows system files and restores any corrupted files it finds.</p>
+<p>Before you use this tool, it's recommended to make a backup of your important files and data. Once you're ready, simply select the option and wait for the scan to finish. Any corrupted files that are detected will be automatically restored.</p>
+<p>After the scan is complete, it's important to restart your PC to ensure that any changes are saved and applied properly.</p>
+<h2 id="dism-command-tool">DISM command tool</h2>
+<p>DISM.exe is a command-line tool that can be used to repair Windows corruption errors. The Reset Windows Update Tool includes DISM commands to facilitate the repair process. The repair options with DISM are:</p>
+<ul>
+<li>Scan the image to check for corruption</li>
+<li>Check the detected corruptions</li>
+<li>Repair the image</li>
+<li>Clean up the superseded components</li>
+</ul>
+<p>To repair Windows, these options should be selected in sequence. After selecting each option, a process message should appear. Please note that the command operation may take several minutes to complete. It is important to restart your PC after executing each command.</p>
+<p>If Windows cannot be repaired, you may need to reinstall the system.</p>
+<h2 id="installing-updates">Installing Updates</h2>
+<p>To begin installing updates, you can access Windows Update by selecting the "Check for Updates" option in the Settings menu.</p>
+<p>When installing updates, it's best to install them in batches of 5 to 20, if possible. This helps to minimize the risk of any issues arising during the installation process.</p>
+<h2 id="online-solutions">Online Solutions</h2>
+<p>The Reset Windows Update Tool can fix some errors related to installing updates, but there may be certain errors that cannot be resolved with this tool.</p>
+<p>In such cases, you can visit Microsoft's website and explore other online solutions. Simply select the option "Explore other online solutions" and you will be directed to the Microsoft website where you can find additional information and support for your specific issue.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../reset-components/" class="btn btn-neutral float-left" title="Reset Components"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../donate/" class="btn btn-neutral float-right" title="Donate">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../reset-components/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../donate/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
